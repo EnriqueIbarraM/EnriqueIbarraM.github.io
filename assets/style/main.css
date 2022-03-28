@@ -1,0 +1,38 @@
+:root {
+    --gray: #939597;
+    --yellow: #fdbb2e;
+    --black: #111418;
+    --white: #fff;
+
+}
+
+body {
+    background-color: var(--gray);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu{
+    position: absolute;
+    max-width: 800px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 0;
+}
+
+#baseMenu {
+    z-index: -1;
+    filter: blur(1px);
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 0px;
+    margin: 0 auto;
+    position: fixed;
+    background-color:var(--black)
+}
+
+.title{
+    text-align: center;
+    color: var(--yellow)
+}
